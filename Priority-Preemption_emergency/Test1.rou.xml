@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-19 22:53:38 by Eclipse SUMO netedit Version 1.24.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="emergency" vClass="emergency" guiShape="emergency"/>
+    <vType id="t_0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="emergency" type="emergency" depart="0.00" from="Node1-2-EB" to="Node5-6-EB" via="Node2-5-SB"/>
+    <flow id="f_0" begin="0.00" from="Node4-5-EB" to="Node3-6-SB" via="Node2-5-NB Node2-3-EB" end="3600.00" vehsPerHour="1800"/>
+</routes>
